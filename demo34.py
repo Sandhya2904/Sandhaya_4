@@ -16,8 +16,6 @@ class vendor:
         s3=f'\t{time.ctime()}\n\n'
         with open('vendor_prods.log','a') as wobj:
             wobj.write(s1+s2+s3)
-
-
 vobj1 = vendor('Klabs','GST1234')
 vobj2 = vendor('Xserver','GST5593')
 vobj1.billing('pA',5,1250)
