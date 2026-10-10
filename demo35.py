@@ -1,14 +1,10 @@
-'''This is Vendor-Product billing app'''
 import time
 class vendor:
-    '''this is vendor class - initialize vendor details'''
     def __init__(self,vName,vGST):
-        '''initialize vendor details'''
         self.vName = vName
         self.vGST = vGST
         print(f'Vendor {self.vName} enrollment is done')
     def billing(self,pName,pQty=0,pCost=0.0):
-        '''this is non-constructor billing method do product billing and update to log file'''
         self.pName = pName
         self.pQty = pQty
         self.pCost = pCost
