@@ -1,7 +1,6 @@
-fobj = open('C:\\Users\\karth\\emp.csv','r')
+fobj = open('C:\\Users\\sandy\\emp.csv','r')
 L = fobj.readlines()
 fobj.close()
-
 total = 0
 for var in L:
     if 'sales' in var:
@@ -10,8 +9,6 @@ for var in L:
         ecost = emp_list[-1]
         total = total + int(ecost)
 print(f"Sum of sales dept emp's cost:{total}")
- 
- ## in Functional programming
 """
  >>> fobj = open('emp.csv','r')
 >>>
