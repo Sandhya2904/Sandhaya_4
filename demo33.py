@@ -7,10 +7,9 @@ class Enrollment:
     def display(self):
         print(f'About {self.name} detials:-')
         print(f'Name:{self.name} DOB:{self.dob} Place:{self.place}')
-        
-obj1 = Enrollment('Arun','1st Jan','City-1')
+obj1 = Enrollment('Sandhaya','29th April','City-1')
 
-obj2 = Enrollment('Leo','2nd Feb','City-2')
+obj2 = Enrollment('Silja','2nd Feb','City-2')
 
 obj1.display()
 obj2.display()
